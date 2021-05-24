@@ -31,7 +31,7 @@ public OnEnterExitModShop(playerid, enterexit, interiorid)
 {
     if (enterexit == 0) // 如果enterexit返回为0，则表示它们正在离开
     {
-        SendClientMessage(playerid, COLOR_WHITE, "好车！您付了一百美元的税。");
+        SendClientMessage(playerid, COLOR_WHITE, "好车！您付了一百美元的钱。");
         GivePlayerMoney(playerid, -100);
     }
     return 1;
